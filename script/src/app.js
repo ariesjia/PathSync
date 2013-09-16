@@ -1,0 +1,82 @@
+var app = angular.module('syncApp', [ "appServie", "appDirective"])
+    .controller('ListCtrl', function ($scope, $element, $log, storage) {
+
+        var wTask = require('./script/src/node/watchTask.js');
+
+        $scope.syncData = storage.getData() || [];
+        $scope.slideIn = true;
+
+        // init watch data
+
+        for(var i = 0 , l = $scope.syncData.length ; i<l ; i++){
+            var data = $scope.syncData[i];
+            if(data.syncedfolder && data.syncfolder){
+                wTask.addTask(data);
+            }
+        }
+
+        $scope.toggleDisabled = function (data) {
+            if (!cheakItemDisable(data)) {
+                var value = !data.disabled;
+                data.disabled = value;
+                wTask.updateTask(data._id,'disabled',value);
+                updateData();
+            }
+        };
+
+        $scope.dellData = function (index) {
+
+            wTask.removeTask($scope.syncData[index]._id);
+
+            $scope.syncData.splice(index, 1);
+            updateData();
+
+        };
+
+        $scope.addData = function () {
+            var obj = {
+                '_id': new Date().getTime(),
+                'syncedfolder': '',
+                'syncfolder': '',
+                'disabled': true
+            };
+            $scope.slideIn = false;
+            $scope.syncData.push(obj);
+            updateData();
+        };
+
+        $scope.cheakDisable = function () {
+            if ($scope.syncData.length !== 0) {
+                return cheakItemDisable($scope.syncData[$scope.syncData.length - 1]);
+            }
+        };
+
+        $scope.editFolder = function ($index, $key, $value) {
+            var otherFolder = $key == 'syncedfolder' ? 'syncfolder' : 'syncedfolder',
+                tdata = $scope.syncData[$index];
+            if (tdata[otherFolder] == $value) {
+                // TODO error message
+                alert('ERROR! the same folder');
+            }else if( ( tdata[otherFolder].indexOf($value) > -1 ) || ( $value.indexOf(tdata[otherFolder]) > -1) ){
+                alert('ERROR! can not nested');
+            }else if( !!$value ) {
+                tdata[$key] = $value;
+                if(tdata[otherFolder]){
+                    //tdata.disabled = false;
+                }
+                $scope.$digest();
+                updateData();
+                wTask.updateTask(tdata._id,$key,$value);
+            }
+        }
+
+        var updateData = function () {
+            storage.updateData($scope.syncData);
+        };
+
+        var cheakItemDisable = function (syncData) {
+            return !(syncData.syncfolder && syncData.syncedfolder);
+        };
+
+    });
+;
