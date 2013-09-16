@@ -10,7 +10,6 @@
 
 var fs = require('fs'),
     fsE = require('fs-extra'),
-    watch = require('watch'),
     watchdirectory = require('watchdirectory');
 
 
