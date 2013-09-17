@@ -1,4 +1,23 @@
 {
+    "main": "index.html",
     "name": "nw-demo",
-    "main": "index.html"
+    "description": "Sync different folder",
+    "version": "0.1.0",
+    "keywords": [ "Sync", "local" , "folder" , "path" , "PathSync" ],
+    "window": {
+        "title": "PathSync",
+        "icon": "PathSync.png",
+        "toolbar": false,
+        "frame": false,
+        "width": 700,
+        "height": 400,
+        "position": "mouse",
+        "min_width": 700,
+        "min_height": 400,
+        "max_width": 700,
+        "max_height": 400
+    },
+    "webkit": {
+        "plugin": true
+    }
 }

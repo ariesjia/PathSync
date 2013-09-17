@@ -14,9 +14,9 @@
     <header class="md_navbar" role="banner">
         <h1 class="logo">Sync</h1>
         <div class="btn_cont">
-            <a href="#" class="glyphicon glyphicon-minus btn_min"></a>
+            <a href="#" class="glyphicon glyphicon-minus btn_min" ng-click="windowMin"></a>
             <!--<a href="#" class="glyphicon glyphicon-plus btn_max"></a>-->
-            <a href="" class="glyphicon glyphicon-remove btn_close"></a>
+            <a href="" class="glyphicon glyphicon-remove btn_close" ng-click="windowClose"></a>
         </div>
     </header>
     <div class="md_main_cont" ng-class="{ md_main_cont_slidein : slideIn }">

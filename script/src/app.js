@@ -1,7 +1,10 @@
 var app = angular.module('syncApp', [ "appServie", "appDirective"])
     .controller('ListCtrl', function ($scope, $element, $log, storage) {
 
-        var wTask = require('./script/src/node/watchTask.js');
+        var wTask = require('./script/src/node/watchTask.js'),
+            gui = require('nw.gui'),
+            win = gui.Window.get();
+
 
         $scope.syncData = storage.getData() || [];
         $scope.slideIn = true;
@@ -14,6 +17,14 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
                 wTask.addTask(data);
             }
         }
+
+        $scope.windowMin = function(){
+            win.minimize();
+        };
+
+        $scope.windowClose = function(){
+            win.close();
+        };
 
         $scope.toggleDisabled = function (data) {
             if (!cheakItemDisable(data)) {
