@@ -90,4 +90,3 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
         };
 
     });
-;

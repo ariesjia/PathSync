@@ -15,7 +15,7 @@ angular.module('appServie', [])
             if (item) {
                 return JSON.parse(item);
             }
-        }
+        };
         this.updateData = function (val) {
             val = JSON.stringify(val);
             localStorage.setItem(KEY, val);
