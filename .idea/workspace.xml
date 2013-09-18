@@ -2,120 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ad7b15-fcea-4524-89ed-ec8c391e425c" name="Default" comment="just">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ac/PathSync.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ac/appicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/.bin/ncp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/.bin/rimraf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/lib/jsonfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/jsonfile/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/examples/pow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/readme.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/chmod.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/clobber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/mkdirp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/perm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/perm_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/race.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/rel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/return_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/root.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/umask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/mkdirp/test/umask_sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/bin/ncp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/lib/ncp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/e" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/f" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/fixtures/src/sub/b" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/ncp/test/ncp-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/bin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/polyfills.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/node_modules/graceful-fs/test/open.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/rimraf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/test/run.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/test/setup.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/test/test-async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/node_modules/rimraf/test/test-sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchdirectory/Cakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchdirectory/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchdirectory/main.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchdirectory/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/watchdirectory/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/psd/PathSync.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/lib/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/lib/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/lib/jquery/jquery-2.0.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/src/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/src/directive/appDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/src/node/watchTask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/script/src/service/appService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/style/style.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/win-32/PathSync.exe" afterPath="$PROJECT_DIR$/output/win-32/PathSync.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ac/PathSync.psd" afterPath="$PROJECT_DIR$/src/ac/PathSync.psd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/mac-os-x/PathSync.app/Contents/Resources/app.nw" afterPath="$PROJECT_DIR$/output/mac-os-x/PathSync.app/Contents/Resources/app.nw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/win-32/app.nw" afterPath="$PROJECT_DIR$/output/win-32/app.nw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ac/appicon.png" afterPath="$PROJECT_DIR$/src/ac/appicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/output/mac-os-x/PathSync.app/Contents/Info.plist" afterPath="$PROJECT_DIR$/output/mac-os-x/PathSync.app/Contents/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/src/app.js" afterPath="$PROJECT_DIR$/src/script/src/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package.json" afterPath="$PROJECT_DIR$/src/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.css" afterPath="$PROJECT_DIR$/src/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/style.scss" afterPath="$PROJECT_DIR$/src/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PathSync.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379483089681" ignored="false" />
-    <file path="/package.json" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379465047465" ignored="false" />
-    <file path="/index.html" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379381264801" ignored="false" />
-    <file path="/app.js" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379484979291" ignored="false" />
+    <file path="/package.json" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379495062415" ignored="false" />
+    <file path="/index.html" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379495573806" ignored="false" />
+    <file path="/app.js" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379493110030" ignored="false" />
     <file path="/watchTask.js" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379406941246" ignored="false" />
     <file path="/fragment.js2" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379408852866" ignored="false" />
     <file path="/watchManager.js" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379410789184" ignored="false" />
-    <file path="/style.scss" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379432207876" ignored="false" />
+    <file path="/style.scss" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379495749986" ignored="false" />
     <file path="/style.css" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379432202207" ignored="false" />
-    <file path="/build.sh" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379483477608" ignored="false" />
+    <file path="/build.sh" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379488972497" ignored="false" />
+    <file path="/Info.plist" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379489031498" ignored="false" />
+    <file path="/nw.sh" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379487547916" ignored="false" />
+    <file path="/app.sh" changelist="40ad7b15-fcea-4524-89ed-ec8c391e425c" time="1379487725377" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,53 +50,7 @@
     <favorites_list name="PathSync" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="81" selection-start="1454" selection-end="1454" vertical-scroll-proportion="-6.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/script/src/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="16" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.54545456">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="267" selection-end="267" vertical-scroll-proportion="-5.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="780" selection-end="788" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="3" selection-start="321" selection-end="321" vertical-scroll-proportion="-14.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -199,19 +69,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/script/src/service/appService.js" />
-        <option value="$PROJECT_DIR$/script/src/app.js" />
-        <option value="$PROJECT_DIR$/script/src/node/watchTask.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/script/src/node/watchManager.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/test.sh" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/nw.sh" />
+        <option value="$PROJECT_DIR$/app.sh" />
+        <option value="$PROJECT_DIR$/output/mac-os-x/PathSync.app/Contents/Info.plist" />
+        <option value="$PROJECT_DIR$/src/Info.plist" />
         <option value="$PROJECT_DIR$/build.sh" />
+        <option value="$PROJECT_DIR$/src/script/src/app.js" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/style.scss" />
         <option value="$PROJECT_DIR$/src/package.json" />
-        <option value="$PROJECT_DIR$/src/script/src/app.js" />
       </list>
     </option>
   </component>
@@ -291,29 +164,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PathSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PathSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="script" />
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +200,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PathSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PathSync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ac" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -364,6 +233,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/script/src/node" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -442,12 +313,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2244389" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23994355" sideWeight="0.7755611" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23994355" sideWeight="0.7755611" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23994355" sideWeight="0.42643392" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -530,37 +401,56 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.6358147" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
+    <entry file="file://$PROJECT_DIR$/src/app.icns">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="780" selection-end="788" vertical-scroll-proportion="0.0">
+        <state line="40" column="15" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.6744186">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="321" selection-end="321" vertical-scroll-proportion="-14.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="81" selection-start="1454" selection-end="1454" vertical-scroll-proportion="-6.230769">
+        <state line="13" column="27" selection-start="249" selection-end="249" vertical-scroll-proportion="0.3939394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="267" selection-end="267" vertical-scroll-proportion="-5.5384617">
+        <state line="7" column="31" selection-start="233" selection-end="233" vertical-scroll-proportion="0.22183098">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="16" selection-start="3250" selection-end="3250" vertical-scroll-proportion="0.54545456">
+        <state line="94" column="37" selection-start="2934" selection-end="2934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="611" selection-end="611" vertical-scroll-proportion="0.9367311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="751" selection-end="751" vertical-scroll-proportion="0.5387324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="0.3030303">
           <folding />
         </state>
       </provider>

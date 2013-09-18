@@ -90,14 +90,31 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
         };
 
         var minimize = function(){
-            var tray;
+
+            var trayMenu = new gui.Menu(), tray;
+
+            trayMenu.append(new gui.MenuItem({
+                label: 'Open',
+                click: function () {
+                    win.show();
+                    tray.remove();
+                    tray = null;
+                }
+            }));
+            trayMenu.append(new gui.MenuItem({
+                label: 'Exit',
+                click: function () {
+                    win.close();
+                }
+            }));
+
 
             win.on('minimize',function(){
                 this.hide();
-                tray = new gui.Tray({'icon':'ac/appicon.png'});
+                tray = new gui.Tray({icon:'ac/appicon_16.png'});
+                tray.menu = trayMenu;
 
                 tray.on('click',function(){
-                    console.log('ssssss');
                     win.show();
                     this.remove();
                     tray = null;

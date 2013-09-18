@@ -6,13 +6,15 @@
     "keywords": [ "Sync", "local" , "folder" , "path" , "PathSync" ],
     "window": {
         "title": "PathSync",
-        "icon": "ac/appicon.png",
+        "icon": "ac/appicon.ico",
         "width": 700,
         "height": 450,
+        "toolbar" : false,
+        "frame": false,
         "position": "mouse",
-        "min_width": 700,
+        "min_width": 720,
         "min_height": 450,
-        "max_width": 700,
+        "max_width": 720,
         "max_height": 450
     },
     "webkit": {

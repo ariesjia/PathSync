@@ -10,8 +10,6 @@
 html, body {
   height: 100%;
   overflow: hidden;
-  -webkit-user-select:none;
-  -webkit-app-region:drag;
 }
 
 .md_navbar {
@@ -23,6 +21,7 @@ html, body {
     line-height: 30px;
     color: #ececec;
     margin: 0 20px;
+    cursor:default;
   }
   .btn_cont {
     position: absolute;

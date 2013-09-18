@@ -9,8 +9,16 @@
     <script type="text/javascript" src="script/src/service/appService.js"></script>
     <script type="text/javascript" src="script/src/directive/appDirective.js"></script>
     <script type="text/javascript" src="script/src/app.js"></script>
+    <style type="text/css">
+        body{
+            -webkit-user-select:none;
+        }
+        .md_navbar{
+            -webkit-app-region:drag;
+        }
+    </style>
 </head>
-<body ng-app="syncApp" ng-controller="ListCtrl">
+<body ng-app="syncApp" ng-controller="ListCtrl"  style="">
     <header class="md_navbar" role="banner">
         <h1 class="logo">Sync</h1>
         <div class="btn_cont">
