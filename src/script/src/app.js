@@ -68,7 +68,7 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
             if (tdata[otherFolder] == $value) {
                 // TODO error message
                 alert('ERROR! the same folder');
-            }else if( ( tdata[otherFolder].indexOf($value) > -1 ) || ( $value.indexOf(tdata[otherFolder]) > -1) ){
+            }else if( $value && tdata[otherFolder] && ( (tdata[otherFolder].indexOf($value) > -1 ) || ( $value.indexOf(tdata[otherFolder]) > -1) ) ){
                 alert('ERROR! can not nested');
             }else if( !!$value ) {
                 tdata[$key] = $value;
