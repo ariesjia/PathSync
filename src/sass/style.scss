@@ -59,6 +59,7 @@ html, body {
   -webkit-animation: flipInX .45s 0 ease both;
 
   .sync_item_main {
+    position: relative;
     width: 660px;
     margin: 0 auto;
     background-color: #ececec;
@@ -94,8 +95,8 @@ html, body {
   }
   .btn_delete {
     position: absolute;
-    right: 3px;
-    top: 0px;
+    right:-18px;
+    top: -1px;
     display: none;
     color: #c00;
     background-color: #ececec;

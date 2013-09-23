@@ -11,7 +11,7 @@
         "height": 450,
         "toolbar" : false,
         "frame": false,
-        "position": "mouse",
+        "position": "center",
         "min_width": 720,
         "min_height": 450,
         "max_width": 720,

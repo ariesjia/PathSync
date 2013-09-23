@@ -9,15 +9,15 @@
 "use strict";
 
 var fs = require('fs'),
+    path = require('path'),
     fsE = require('fs-extra'),
     watchdirectory = require('watchdirectory');
 
 
-
 var getFileName = function(file,watchFolder,syncFolder){
-    var filename = file.replace(new RegExp('^'+watchFolder),'');
-    return syncFolder+filename;
+    return syncFolder+file.substr(watchFolder.length);
 }
+
 var copyFile = function(file,id,stat){
     var watchFolder = _taskList[id].syncedfolder,
         syncFolder = _taskList[id].syncfolder;
@@ -51,8 +51,8 @@ var copyFile = function(file,id,stat){
 var addWatch = function(id,syncedfolder){
 
     return watchdirectory.watchDirectory(syncedfolder,{include:function(file){
-        var fileList = file.split('/');
-        return fileList[fileList.length-1][0] != '.' && fileList[fileList.length-1] !='';
+        var filename = path.basename(file);
+        return filename[0] != '.' && filename !='';
     }},function (filename, curr, prev, change) {
         if (change == 'initial') {
             // filename found during initial pass
@@ -96,23 +96,17 @@ var _taskList = {},
                     obj.taskProgress = function(){};
                 }
                 _taskList[id] = obj;
-                console.log(_taskList,'-----add------');
             }
         },
         'updateTask' : function(id,key,value){
-
             if( _taskList[id] ){
-
                 var taskItem = _taskList[id];
                 taskItem[key] = value;
                 // TODO change sync fodler do not unwatch
-
                 removeWatch(id);
-
                 if( !taskItem.disabled ){
                     taskItem.taskProgress = addWatch(id,taskItem.syncedfolder);
                 }
-
             }
             return this;
         },

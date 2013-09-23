@@ -38,8 +38,8 @@
                 ></a>
                 <input type="text" class="sync_folder sync_folder_r" ng-model="data.syncfolder" ng-readonly="true"
                        file-input="syncfolder" placeholder="sync folder"/>
+                <a href="#" class="glyphicon glyphicon-remove btn_delete" ng-click="dellData($index);" title="delete"></a>
             </div>
-            <a href="#" class="glyphicon glyphicon-remove btn_delete" ng-click="dellData($index);"></a>
         </div>
     </div>
     <div class="md_bottom_cont">

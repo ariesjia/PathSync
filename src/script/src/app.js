@@ -65,10 +65,15 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
         $scope.editFolder = function ($index, $key, $value) {
             var otherFolder = $key == 'syncedfolder' ? 'syncfolder' : 'syncedfolder',
                 tdata = $scope.syncData[$index];
+
+            var nestMatch = function (str,instr) {
+                return str.match(new RegExp('^'+ instr+'\/'))
+            }
+
             if (tdata[otherFolder] == $value) {
                 // TODO error message
                 alert('ERROR! the same folder');
-            }else if( $value && tdata[otherFolder] && ( (tdata[otherFolder].indexOf($value) > -1 ) || ( $value.indexOf(tdata[otherFolder]) > -1) ) ){
+            }else if( $value && tdata[otherFolder] && ( nestMatch(tdata[otherFolder],$value) || nestMatch($value,tdata[otherFolder]) )){
                 alert('ERROR! can not nested');
             }else if( !!$value ) {
                 tdata[$key] = $value;
@@ -113,13 +118,11 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
                 this.hide();
                 tray = new gui.Tray({icon:'ac/appicon_16.png'});
                 tray.menu = trayMenu;
-
                 tray.on('click',function(){
                     win.show();
                     this.remove();
                     tray = null;
                 });
-
             });
 
             win.on('restore', function () {
