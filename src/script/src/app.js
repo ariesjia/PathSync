@@ -32,6 +32,8 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
                 data.disabled = value;
                 wTask.updateTask(data._id,'disabled',value);
                 updateData();
+            }else{
+                alert('ERROR! you must input folder');
             }
         };
 

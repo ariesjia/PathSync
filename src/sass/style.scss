@@ -67,12 +67,11 @@ html, body {
     border: 1px solid #ddd;
     border-bottom: none;
   }
-  &:last-child .sync_item_main {
-    border-bottom: 1px solid #ddd;
-  }
+
+
   input[type="text"] {
     border: 1px solid rgba(240, 240, 240, .7);
-    background: #fff;
+    background:#fefefe;
     outline: 0;
     -webkit-appearance: none;
     border-radius: 4px;
@@ -80,10 +79,18 @@ html, body {
     height: 30px;
     margin: 0 5px;
     text-indent: 5px;
+    cursor:pointer;
   }
-  input[type="text"]:focus {
+  input[type="text"]:hover {
+    background:#fff;
     border: 1px solid #ececec;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, .1);
+    -webkit-animation:none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+  }
+  input.input_warning{
+    //border-color: #c33;
+    //box-shadow: 0px 0px 4px rgba(204, 51, 51, .8);
+    -webkit-animation:breathing_red 2s 1s linear both infinite;
   }
   .btn_switch {
     color: #47a447;
@@ -113,7 +120,9 @@ html, body {
     }
   }
 }
-
+.md_sync_item:last-child .sync_item_main {
+  border-bottom: 1px solid #ddd;
+}
 .md_main_cont_slidein .md_sync_item {
   &:nth-child(2) {
     -webkit-animation-delay: 0.5s;
@@ -135,7 +144,42 @@ html, body {
   }
 }
 
-// ===== btn container fix bottom =====
+.md_prompt{
+  background-color:#ececec;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  border:1px #ddd solid;
+  bottom:30px;
+  left:50%;
+  width: 300px;
+  -webkit-box-sizing:padding-box;
+  margin-left:-150px;
+  text-align: center;
+  -webkit-transform-origin: 50% 0;
+  -webkit-animation:shake 3s 0 linear both infinite;
+  p{
+    margin: 0;
+  }
+  &:after,&:before{
+    display: block;
+    width: 0;
+    height: 0;
+    content:" ";
+    border:8px solid #ddd;
+    border-color:#ddd transparent transparent transparent;
+    position: absolute;
+    bottom:-16px;
+    left: 50%;
+    margin-left:-8px;
+  }
+  &:after{
+    bottom:-15px;
+    border-color:#ececec transparent transparent transparent;
+  }
+}
+
+// ===== btn container fixed bottom =====
 .md_bottom_cont {
   position: fixed;
   width: 100%;
@@ -145,9 +189,34 @@ html, body {
   border-top: 1px solid #ddd;
   background-color: #ececec;
   text-align: center;
-  .btn_add {
+  .btn_add{
     margin: 8px 0 0 0;
     width: 200px;
+    position:relative;
+    overflow: hidden;
+    i{
+      position: absolute;
+      display:block;
+      content:' ';
+      top: -100px;
+      left:-140px;
+      width:30px;
+      height:400px;
+      z-index: 2;
+      background: rgba(255, 255, 255, .5);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      pointer-events: none;
+    }
+  }
+  .btn_add:hover , .btn_add.btn_add_hover{
+    text-decoration:none;
+    -webkit-animation:breathing 2s 1s linear both infinite;
+  }
+  .btn_add:hover i , .btn_add.btn_add_hover i{
+    -webkit-animation-name:flash;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
   }
 }
 
@@ -171,3 +240,34 @@ html, body {
   }
 }
 
+
+@-webkit-keyframes shake{
+  0% {
+    -webkit-transform: translate(0,0);
+  }
+  25% {
+    -webkit-transform: translate(0,5px);
+  }
+  75% {
+    -webkit-transform: translate(0,-5px);
+  }
+  100% {
+    -webkit-transform: translate(0,0);
+  }
+}
+
+@-webkit-keyframes breathing_red{
+  0%{box-shadow:0 0 5px rgba(204, 51, 51, .3);}
+  30%{box-shadow:0 0 15px rgba(204, 51, 51, .3);}
+  100%{box-shadow:0 0 5px rgba(204, 51, 51, .3);}
+}
+
+@-webkit-keyframes breathing{
+  0%{box-shadow:0 0 5px rgba(158,150,0,.8)}
+  30%{box-shadow:0 0 15px rgba(150,150,0,.8)}
+  100%{box-shadow:0 0 5px rgba(158,150,0,.8)}
+}
+
+@-webkit-keyframes flash{
+  100%{left:1000px}
+}
