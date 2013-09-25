@@ -6,6 +6,8 @@ var app = angular.module('syncApp', [ "appServie", "appDirective"])
             win = gui.Window.get();
 
 
+
+
         $scope.syncData = storage.getData() || [];
         $scope.slideIn = true;
 

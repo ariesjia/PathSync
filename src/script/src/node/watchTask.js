@@ -15,8 +15,12 @@ var fs = require('fs'),
 
 
 var getFileName = function(file,watchFolder,syncFolder){
-    return syncFolder+file.substr(watchFolder.length);
-}
+
+        return syncFolder+file.substr(watchFolder.length);
+
+    },checkFileExists =function(watchFolder,syncFolder){
+        return fs.existsSync(watchFolder) && fs.existsSync(syncFolder);
+    };
 
 var copyFile = function(file,id,stat){
     var watchFolder = _taskList[id].syncedfolder,
@@ -78,6 +82,7 @@ var addWatch = function(id,syncedfolder){
     _taskList[id].taskProgress();
 }
 
+
 var _taskList = {},
     func = {
         'getTask' : function(id){
@@ -91,7 +96,11 @@ var _taskList = {},
             var id= obj._id;
             if( !_taskList[id] ){
                 if( !obj.disabled ){
-                    obj.taskProgress = addWatch(id,obj.syncedfolder);
+                    if(checkFileExists(obj.syncedfolder,obj.syncfolder)){
+                        obj.taskProgress = addWatch(id,obj.syncedfolder);
+                    }else{
+                        //TODO feedback to ui
+                    }
                 }else{
                     obj.taskProgress = function(){};
                 }
